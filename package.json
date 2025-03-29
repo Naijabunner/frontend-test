@@ -1,0 +1,41 @@
+{
+  "name": "frontend-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.1.2",
+    "@radix-ui/react-tooltip": "^1.1.8",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/drop": "^3.12.0",
+    "@react-pdf-viewer/get-file": "^3.12.0",
+    "@react-pdf-viewer/highlight": "^3.12.0",
+    "@types/react-signature-canvas": "^1.0.7",
+    "canvas": "^3.1.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.484.0",
+    "next": "15.2.4",
+    "pdfjs-dist": "^3.4.120",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-dropzone": "^14.3.8",
+    "react-pdf": "^9.2.1",
+    "react-signature-canvas": "^1.1.0-alpha.1",
+    "tailwind-merge": "^3.0.2",
+    "tw-animate-css": "^1.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
